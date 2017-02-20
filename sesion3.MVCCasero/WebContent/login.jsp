@@ -22,9 +22,20 @@
 			</tr>
 		</table>
 	</form>
-	<tr style ="text-align:center;">
-		<td><a href = ventanaRegistro.jsp>registrarse</a></td>
-	</tr>
+		<form action="registrarse" method="post" name="registrarse_form_name">
+
+		<center>
+			<h1>Registrese</h1>
+		</center>
+		<hr>
+		<br>
+		<table align="center">
+			<tr>
+				<td><input type="submit" value="Registrarse" /></td>
+			</tr>
+		</table>
+	</form>
+
 	<a id="listarCategorias_link_id" href="listarCategorias">Lista de
 		categorias</a>
 	<%@ include file="pieDePagina.jsp"%>

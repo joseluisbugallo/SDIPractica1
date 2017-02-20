@@ -24,7 +24,7 @@
 	    	<td><input type="password" name=repetircontraseña align="left" size="15"></td>
       	</tr>
       	<tr>
-    	    <td><input type="submit" value="Enviar" /></td>
+    	    <td><input type="submit" value="Registrarse"/></td>
       	</tr>
 
       </table>
